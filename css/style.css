@@ -16,9 +16,23 @@
     margin: 0px 10%;
     height: 100%;
     line-height: 80px;
-    background-color: darksalmon;
+    background-color: transparent;
+}
+
+.main-header > .container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.main-header > .container a {
+    width: 20%;
 }
 
 .main-header > .container img[src*="logo"] {
     vertical-align: middle;
+}
+
+.floatleft {
+    float: left;
 }
