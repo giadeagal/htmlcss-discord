@@ -87,7 +87,6 @@ body {
 .jumbotron {
     height: 500px;
     width: 100%;
-    background-color: red;
     padding: 10% 25%;
     position: relative;
     background-image: url(../img/jumbo.png);
