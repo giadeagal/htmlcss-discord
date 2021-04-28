@@ -10,6 +10,10 @@ body {
     font-family: 'Catamaran', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Header */
 .main-header {
     width: 100%;
@@ -44,20 +48,19 @@ body {
 }
 
 /* Header - nav */
-.main-header > .container nav{
+.main-header > .container nav {
     text-align: center;
     width: 60%;
     margin:auto;
     height: 100%;
 }
 
-.main-header > .container nav li{
+.main-header > .container nav li {
     display: inline-block;
     margin: 0 20px ;
 }
 
 .main-header > .container nav li a {
-    text-decoration: none;
     color: white;
     font-weight: bold;
     /* font-size: 20px; */
@@ -108,6 +111,27 @@ body {
 
 .jumbotron p {
     font-size: 20px;
+}
+
+.jumbotron .button {
+    display: inline-block;
+    margin: 20px 5px;
+}
+
+.jumbotron .button.a  a {
+    color: black;
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 40px;
+
+}
+
+.jumbotron .button.b  a {
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 40px;
+    display: inline-block;
 }
 
    
