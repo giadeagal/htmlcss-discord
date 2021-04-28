@@ -25,6 +25,7 @@
     clear: both;
 }
 
+/* Header - logo */
 .main-header > .container a {
     width: 20%;
 }
@@ -33,6 +34,25 @@
     vertical-align: middle;
 }
 
-.floatleft {
+.main-header > .container .float {
     float: left;
 }
+
+/* Header - nav */
+.main-header > .container nav{
+    text-align: center;
+}
+
+.main-header > .container nav li{
+    display: inline-block;
+    margin: 0 10px ;
+}
+
+.main-header > .container nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Header - bottone accedi */
