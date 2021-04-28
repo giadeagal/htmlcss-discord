@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* Comuni */
+
 /* Header */
 .main-header {
     width: 100%;
@@ -41,6 +43,9 @@
 /* Header - nav */
 .main-header > .container nav{
     text-align: center;
+    width: 60%;
+    margin:auto;
+    height: 100%;
 }
 
 .main-header > .container nav li{
@@ -48,7 +53,7 @@
     margin: 0 10px ;
 }
 
-.main-header > .container nav a {
+.main-header > .container nav li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -56,3 +61,23 @@
 }
 
 /* Header - bottone accedi */
+.main-header > .container .button-container {
+    display: inline-block;
+    width: 20%;
+    background-color: transparent;
+    height: 100%;
+    margin: auto;
+}
+
+.main-header > .container .button-container a {
+    border-radius: 20px;
+    background-color: white;
+    text-decoration: none;
+    color: #3161e0;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0 25%;
+}
+
+/* debug */
