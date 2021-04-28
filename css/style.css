@@ -53,14 +53,14 @@ body {
 
 .main-header > .container nav li{
     display: inline-block;
-    margin: 0 10px ;
+    margin: 0 20px ;
 }
 
 .main-header > .container nav li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    /* font-size: 20px; */
 }
 
 /* Header - bottone accedi */
@@ -77,9 +77,10 @@ body {
     background-color: white;
     text-decoration: none;
     color: #3161e0;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px;
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+    text-transform: capitalize;
+    padding: 5px 20px;
     margin: 0 25%;
 }
 
