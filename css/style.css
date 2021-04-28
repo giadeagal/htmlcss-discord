@@ -93,7 +93,7 @@ h2 {
 
 /* Jumbo */
 .jumbotron {
-    height: 500px;
+    /* height: 500px; */
     width: 100%;
     padding: 10% 25%;
     position: relative;
