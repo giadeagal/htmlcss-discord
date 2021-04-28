@@ -181,6 +181,26 @@ footer {
     margin: 0px 10%;
 }
 
+.footertop::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* .footertop section {
+    display: inline-block;
+} */
+
+.footertop section.big {
+    width: 30%;
+    height: 100%;
+}
+
+.footertop section.small {
+    width: calc(70% / 4);
+    height: 100%;
+}
+
 .footerbtm {
     border-top: 2px solid #7289da;
     position: relative;
@@ -212,4 +232,13 @@ footer {
 /* debug */
 .debug .footertop {
     background-color: coral;
+}
+
+.debug .footertop section.big {
+    background-color: violet;
+}
+
+.debug .footertop section.small {
+    background-color: teal;
+    border: 2px dashed #000;
 }
