@@ -175,6 +175,12 @@ footer {
     height: 610px;
 }
 
+.footertop {
+    height: 500px;
+    width: 80%;
+    margin: 0px 10%;
+}
+
 .footerbtm {
     border-top: 2px solid #7289da;
     position: relative;
@@ -191,11 +197,6 @@ footer {
     vertical-align: middle;
 }
 
-/* .footerbtm .button-container-bottom {
-    position: absolute;
-    right: 0px;
-    top: 30px;
-} */
 
 .footerbtm .button-container-bottom a {
     border-radius: 40px;
@@ -210,13 +211,5 @@ footer {
 
 /* debug */
 .debug .footertop {
-    height: 500px;
-    width: 80%;
-    margin: 0px 10%;
     background-color: coral;
 }
-
-.debug .footerbtm {
-    height: 110px;
-    width: 80%;
-    margin: 0px 10%;
