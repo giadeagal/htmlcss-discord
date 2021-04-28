@@ -6,6 +6,9 @@
 }
 
 /* Comuni */
+body {
+    font-family: 'Catamaran', sans-serif;
+}
 
 /* Header */
 .main-header {
@@ -79,5 +82,34 @@
     padding: 10px;
     margin: 0 25%;
 }
+
+/* Jumbo */
+.jumbotron {
+    height: 500px;
+    width: 100%;
+    background-color: red;
+    padding: 10% 25%;
+    position: relative;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.jumbotron h2,
+.jumbotron p {
+    color: white;
+    font-size: bold;
+}
+
+.jumbotron h2 {
+    font-size: 45px;
+}
+
+.jumbotron p {
+    font-size: 20px;
+}
+
+   
 
 /* debug */
